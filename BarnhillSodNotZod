@@ -258,7 +258,7 @@ public class BarnhillMainClass
 	//Start of validateMainMenu method to validate user's input from main menu
 	public static char validateMainMenu(Scanner borrowedInput)
 	{
-		char localRateSelection;
+		char localRateSelection = ' ';
 		displayMainMenu();
 		localRateSelection = borrowedInput.next().toUpperCase().charAt(0);
 		//validate input
@@ -277,7 +277,7 @@ public class BarnhillMainClass
 	//Start of validateItemMenu method to validate user's input from item menu
 	public static char validateItemMenu(Scanner borrowedInput)
 	{
-		char localItemSelection;
+		char localItemSelection = ' ';
 		displayItemMenu();
 		localItemSelection = borrowedInput.next().toUpperCase().charAt(0);
 		//validate input
